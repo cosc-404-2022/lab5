@@ -10,7 +10,7 @@ Our goal is to add ORDER BY support to the current system.  The code already sup
 
 A setup and getting started checklist:
 
-- JavaCC and JJTree are part of the code base. The library is `target\javacc.jar`. The two script files for compiling are 'scripts/jjtree` and `scripts/javacc`.
+- JavaCC and JJTree are part of the code base. The library is `target\javacc.jar`. The two script files for compiling are `scripts/jjtree` and `scripts/javacc`.
 
 - The test file is `junit/TestQuery.java`.
 
