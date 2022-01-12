@@ -18,3 +18,6 @@ A setup and getting started checklist:
 
 - Modify the `query/Optimizer.java` file to support execution of the ORDER BY clause you just created.  Note that we will limit support to only one attribute either ASC or DESC. (10 marks)
 
+## Submission
+
+The lab can be marked immediately by the professor or TA by showing the output of the JUnit tests and by a quick code review.  Otherwise, submit the URL of your GitHub repository on Canvas. **Make sure to commit and push your updates to GitHub.**
