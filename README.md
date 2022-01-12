@@ -20,7 +20,7 @@ A setup and getting started checklist:
 
 ## Using JavaCC/JJTree
 
-The best way to approach the assignment is to learn by example and copy existing code in `SQLParser.jjt`. Specifically, you will need to add two tokens `ASC` and `DESC` and one method `Orderby()`. The existing `From()` method is good to use as a starting point. Modify the `SQLParser.jjt` file. Then open a terminal, navigate to the directory `src/textdb/parser` and run the command: `../../../scripts/jjtree SQLParser.jjt`  This command will compile the grammar and generate the '`SQLParser.jj` file in addition to other Java files.
+The best way to approach the assignment is to learn by example and copy existing code in `SQLParser.jjt`. Specifically, you will need to add two tokens `ASC` and `DESC` and one method `Orderby()`. The existing `From()` method is good to use as a starting point. Modify the `SQLParser.jjt` file. Then open a terminal, navigate to the directory `src/textdb/parser` and run the command: `../../../scripts/jjtree SQLParser.jjt`  This command will compile the grammar and generate the `SQLParser.jj` file in addition to other Java files.
 
 ![JJTree command](img/jjtree.png)
 
