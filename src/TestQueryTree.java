@@ -25,7 +25,12 @@ public class TestQueryTree {
         TextFileScan scan = new TextFileScan("bin/data/nation.txt", nation);
 
         Operator op;
-       
+        // Q1: What would you change to sort by n_name ?
+        // Hint: Look at MergeSort and SortComparator        
+
+        // Q2: Add projection on n_nationkey, n_name
+        // Hint: Projection operator and ExtractAttribute for expressions             
+        
         op = scan;
       
         op.init();
