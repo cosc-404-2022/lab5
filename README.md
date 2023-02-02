@@ -4,7 +4,7 @@ This lab practices parsing using JavaCC.
 
 ## Query Parsing with JavaCC (20 marks)
 
-This question uses the JavaCC parser to translate SQL queries into execution plans.  [JavaCC](https://javacc.org/) is a Java-based parser generator.  You can use it to make parse trees using the JJTree component.  
+This question uses the JavaCC parser to translate SQL queries into execution plans.  [JavaCC](https://javacc.github.io/javacc/) is a Java-based parser generator.  You can use it to make parse trees using the JJTree component.  
 
 Our goal is to add ORDER BY support to the current system.  The code already supports a basic SQL parser in the file `parser/SQLparser.jjt` and a translation directly from the parse tree to an execution tree (using operators like you developed in assignment #3).
 
