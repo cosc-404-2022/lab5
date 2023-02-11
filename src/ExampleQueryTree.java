@@ -12,7 +12,7 @@ import textdb.relation.Attribute;
 import textdb.relation.Relation;
 import textdb.relation.Tuple;
 
-public class TestQueryTree {
+public class ExampleQueryTree {
     public static void main(String[]argv) throws FileNotFoundException, IOException
     {
         Attribute []nAttr = new Attribute[4];
