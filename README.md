@@ -28,6 +28,25 @@ If that is successful, run the command: `../../../scripts/javacc SQLParser.jj` t
 
 ![JavaCC command](img/javacc.png)
 
+## Building Query Trees (5 marks)
+
+Practice building query trees of operators. Edit `QueryTree.java` to implement two query plans:
+
+- Plan #1 (2 marks) for:
+
+```SELECT s_suppkey, s_name, s_phone FROM supplier WHERE s_suppkey < 5 ORDER BY s_phone ASC```
+
+- Plan #2 (3 marks) for:
+
+```
+SELECT n_name, n_regionkey, n_nationkey, s_nationkey, s_name
+FROM nation JOIN supplier ON n_nationkey=s_nationkey
+WHERE (n_regionkey = 1 or n_regionkey = 3) AND s_suppkey < 50
+ORDER BY n_name ASC, s_name ASC
+```
+   
+ Tests are `TestQueryTree.java`.
+ 
 ## Submission
 
 The lab can be marked immediately by the professor or TA by showing the output of the JUnit tests and by a quick code review.  Otherwise, submit the URL of your GitHub repository on Canvas. **Make sure to commit and push your updates to GitHub.**
